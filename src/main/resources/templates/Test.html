@@ -1,0 +1,9 @@
+<title>Test.html</title>
+
+<p th:text="${@environment.getProperty('messages.hello')}"/>
+
+<form method="get" th:attr="action=${@environment.getProperty('form.action')}"/>
+
+
+
+
